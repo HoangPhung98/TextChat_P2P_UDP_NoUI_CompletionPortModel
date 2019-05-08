@@ -1,0 +1,10 @@
+﻿  Server.cpp
+C:\Users\PhungVanHoang\source\repos\CompletionPort\CompletitionPort_Model\Server.cpp(42): warning C4018: '<': signed/unsigned mismatch
+C:\Users\PhungVanHoang\source\repos\CompletionPort\CompletitionPort_Model\Server.cpp(72): warning C4311: 'type cast': pointer truncation from 'LPPER_HANDLE_DATA' to 'DWORD'
+C:\Users\PhungVanHoang\source\repos\CompletionPort\CompletitionPort_Model\Server.cpp(72): warning C4302: 'type cast': truncation from 'LPPER_HANDLE_DATA' to 'DWORD'
+C:\Users\PhungVanHoang\source\repos\CompletionPort\CompletitionPort_Model\Server.cpp(99): error C2664: 'BOOL GetQueuedCompletionStatus(HANDLE,LPDWORD,PULONG_PTR,LPOVERLAPPED *,DWORD)': cannot convert argument 3 from 'LPDWORD' to 'PULONG_PTR'
+  C:\Users\PhungVanHoang\source\repos\CompletionPort\CompletitionPort_Model\Server.cpp(104): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\PhungVanHoang\source\repos\CompletionPort\CompletitionPort_Model\Server.cpp(116): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'SOCKET'
+  C:\Users\PhungVanHoang\source\repos\CompletionPort\CompletitionPort_Model\Server.cpp(116): note: consider using '%lld' in the format string
+  C:\Users\PhungVanHoang\source\repos\CompletionPort\CompletitionPort_Model\Server.cpp(116): note: consider using '%Id' in the format string
+  C:\Users\PhungVanHoang\source\repos\CompletionPort\CompletitionPort_Model\Server.cpp(116): note: consider using '%I64d' in the format string
